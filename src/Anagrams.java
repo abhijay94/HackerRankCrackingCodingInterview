@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Anagrams {
 
-    public static int numberNeeded(String first, String second) {
+    private static int numberNeeded(String first, String second) {
         HashMap<Character, Integer> letterCountMap = new HashMap<>();
         char[] arrFirst = first.toCharArray();
         char[] arrSecond = second.toCharArray();
@@ -17,11 +17,12 @@ public class Anagrams {
         }
 
         for (char i : arrSecond) {
-            if(!letterCountMap.containsKey(i)) {
+            int letterCount = letterCountMap.get(i);
+            if (!letterCountMap.containsKey(i)) {
                 count++;
-            } else if (letterCountMap.containsKey(i) && letterCountMap.get(i) > 0) {
-                letterCountMap.put(i,letterCountMap.get(i)-1);
-            } else if (letterCountMap.containsKey(i) && letterCountMap.get(i) == 0) {
+            } else if (letterCountMap.containsKey(i) && letterCount > 0) {
+                letterCountMap.put(i, letterCount - 1);
+            } else if (letterCountMap.containsKey(i) && letterCount == 0) {
                 count++;
             }
         }
