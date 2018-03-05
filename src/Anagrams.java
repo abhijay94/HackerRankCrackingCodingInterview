@@ -17,7 +17,7 @@ public class Anagrams {
         }
 
         for (char i : arrSecond) {
-            int letterCount = letterCountMap.get(i);
+            int letterCount = letterCountMap.get(i) != null ? letterCountMap.get(i) : 0;
             if (!letterCountMap.containsKey(i)) {
                 count++;
             } else if (letterCountMap.containsKey(i) && letterCount > 0) {
