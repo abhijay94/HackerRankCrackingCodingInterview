@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Anagrams {
 
-
     public static int numberNeeded(String first, String second) {
         HashMap<Character, Integer> letterCountMap = new HashMap<>();
         char[] arrFirst = first.toCharArray();
