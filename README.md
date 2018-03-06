@@ -8,4 +8,7 @@ https://www.hackerrank.com/challenges/ctci-making-anagrams/problem <br>
 <br>
 **3. Hash Tables: Ransom Note** (src/RansomNote)<br>
 https://www.hackerrank.com/challenges/ctci-ransom-note/problem <br>
+<br>
+**4. Linked Lists: Detect a Cycle** (src/LinkedListsCycle)<br>
+https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem <br>
 
