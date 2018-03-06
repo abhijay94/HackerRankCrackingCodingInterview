@@ -1,8 +1,11 @@
 # My solutions to Cracking the Coding Interview Problems on HackerRank
 #### Problems Solved so far:
-**1. Arrays: Left Rotation <br>**
+**1. Arrays: Left Rotation** (src/LeftRotation)<br>
 https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem <br>
 <br>
-**2. Strings:  Making Anagrams <br>**
+**2. Strings:  Making Anagrams** (src/Anagrams)<br>
 https://www.hackerrank.com/challenges/ctci-making-anagrams/problem <br>
+<br>
+**3. Hash Tables: Ransom Note** (src/RansomNote)<br>
+https://www.hackerrank.com/challenges/ctci-ransom-note/problem <br>
 
