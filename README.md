@@ -11,4 +11,7 @@ https://www.hackerrank.com/challenges/ctci-ransom-note/problem <br>
 <br>
 **4. Linked Lists: Detect a Cycle** (src/LinkedListsCycle)<br>
 https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem <br>
+<br>
+**5. Balanced Brackets** (src/BalancedBrackets)<br>
+https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem <br>
 
