@@ -14,4 +14,7 @@ https://www.hackerrank.com/challenges/ctci-linked-list-cycle/problem <br>
 <br>
 **5. Balanced Brackets** (src/BalancedBrackets)<br>
 https://www.hackerrank.com/challenges/ctci-balanced-brackets/problem <br>
+<br>
+**6. Queues: A Tale of Two Stacks** (src/TwoStacksQueue)<br>
+https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem <br>
 
