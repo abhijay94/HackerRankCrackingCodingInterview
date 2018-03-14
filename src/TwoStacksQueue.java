@@ -6,20 +6,29 @@ public class TwoStacksQueue {
         Stack<T> stackNewestOnTop = new Stack<>();
         Stack<T> stackOldestOnTop = new Stack<>();
 
-        void enqueue(T value) { // Push onto newest stack
+        //We keep pushing new values to the NewestOnTop Stack until we see a dequeue or a pop operation
+        void enqueue(T value) {
+            // Push onto NewestOnTop stack
             stackNewestOnTop.push(value);
         }
 
+        /*We move every element to the OldestOnTop stack by popping everything from NewestOnTop and moving it
+        to OldestOnTop. Then we finally peek the top of OldestOnTop Stack. New push operations can be continued on
+        the NewestOnTopStack unless we encounter another peek or pop.*/
         private T peek() {
             if (stackOldestOnTop.empty()) {
                 while (!stackNewestOnTop.empty()) {
+                    // Pop from NewestOnTop and push the value to OldestOnTop stack
+                    // The order of the elements in the first stack is reversed when everything gets pushed to
+                    // the Newest OnTopStack
                     stackOldestOnTop.push(stackNewestOnTop.pop());
                 }
             }
             return stackOldestOnTop.peek();
-
         }
 
+        /*We move every element to the OldestOnTop stack by popping everything from NewestOnTop and moving it
+        to OldestOnTop. Then we finally pop the top of OldestOnTop Stack.*/
         private T dequeue() {
             if (stackOldestOnTop.empty()) {
                 while (!stackNewestOnTop.empty()) {
