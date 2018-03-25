@@ -11,10 +11,10 @@ public class LeftRotation {
             a[a_i] = in.nextInt();
         }
         for (int i = 0; i < n; i++) {
-            if (i + k < n ) {
+            if (i + k < n) {
                 rotated_a[i] = a[i + k];
             } else {
-                rotated_a[i] = a[i+k-n];
+                rotated_a[i] = a[i + k - n];
             }
         }
 
