@@ -23,3 +23,7 @@ https://www.hackerrank.com/challenges/ctci-fibonacci-numbers/problem <br>
 <br>
 **8. Coin Change** (src/CoinChange)<br>
 https://www.hackerrank.com/challenges/coin-change/problem <br>
+<br>
+**9. Running Median** (src/RunningMedian)<br>
+https://www.hackerrank.com/challenges/find-the-running-median/problem <br>
+
